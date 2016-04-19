@@ -9,7 +9,7 @@
     <meta name="Deinonzch" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Index</title>
+    <title>Party Wizards</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,8 +48,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about" ui-sref="about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -66,29 +66,10 @@
             </ul>
         </div><!--/.nav-collapse -->
     </div>
-</nav>
-
-<div class="container theme-showcase" role="main">
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <h1>Welcome</h1>
-        <p>I am the greatest wizard on the world. I help you create crazy potion.</p>
-    </div>
-
-</div> <!-- /container -->
-
-
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="lokalizacja skryptu"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-<script src="../../assets/js/docs.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
-
+</nav><?php
+/**
+ * Created by PhpStorm.
+ * User: S³awomir
+ * Date: 19.04.2016
+ * Time: 15:20
+ */
