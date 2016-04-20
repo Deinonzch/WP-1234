@@ -57,14 +57,29 @@ background-color:#55acee;
 color: #fff;
 background-color:#59b5fa;
 }
-@media(max-width:768px){
-#login-dp{
-background-color: inherit;
-color: #fff;
-}
-#login-dp .bottom{
-background-color: inherit;
-border-top:0 none;
-}
+@media(max-width:768px) {
+  #login-dp {
+    background-color: inherit;
+    color: #fff;
+  }
 
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  #adv-search {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .dropdown.dropdown-lg {
+    position: static !important;
+  }
+
+  .dropdown.dropdown-lg .dropdown-menu {
+    min-width: 500px;
+  }
 }
